@@ -1,0 +1,32 @@
+
+     .heading{
+       display: flex;
+       font-size: 14px;
+       gap: 10px;
+     }
+
+     .navbar{
+        display: flex;
+        flex-direction: column-reverse;
+     }
+     .div2{
+        height: 200px;
+        width: 200px;
+        background-color: red;
+       padding: 20px 30px 10px 20px;
+       overflow: hidden;
+        
+        
+        
+     }
+     .div3{
+        height: 100%;
+        width: 100%;
+        background: #000;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+     }
+ .div3 span{
+    color: red;
+ }       
