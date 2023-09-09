@@ -1,0 +1,41 @@
+*{
+    text-decoration: none;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+    align-items: center;
+}
+.navbar button{
+    background: cyan;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.navbar button:hover{
+    background: #fff;
+    border: 0.5px solid lightgray;
+    transition: 0.3s ease;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    
+   
+}
+
+.nav-items a{
+    color: #777;
+    font-weight: bold;
+}
