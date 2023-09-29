@@ -1,0 +1,78 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.font-size{
+    font-size: 50px;
+    font-weight: 700;
+}
+.size{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.gap-50{
+    gap: 50px;
+}
+.color-gray{
+    color: #777;
+}
+.mt-50{
+    margin-top: 10%;
+}
+.navbar-top{
+    background-image: url('https://images.pexels.com/photos/1384901/pexels-photo-1384901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*About Section*/
+.about{
+    
+    padding-left: 300px !important;
+    margin-top: 30px;
+}
+.about-content{
+    width: 300px;
+}
+.description{
+    font-size: 14px;
+    color: #777;
+}
+@media (min-width: 1024px) {
+    .heading{
+        font-size: 50px;
+    }
+}
+@media (max-width: 1023px) {
+    .heading{
+        font-size: 30px;
+    }
+    .about{
+    
+        padding-left: 10px !important;
+        margin-top: 30px;
+        flex-direction: column;
+    }
+}
+@media (max-width: 575px) {
+    .services{
+       flex-direction: column;
+     
+    }
+}
+
+/*card*/
+.services{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.card img{
+    width: 80px;
+    margin: 10px auto;
+    
+}
