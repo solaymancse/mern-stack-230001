@@ -40,17 +40,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Services
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
                         </li>
+
                     </ul>
                 </div>
 
@@ -87,15 +80,16 @@
 
 
     <h1 class="text-center mt-50">Services</h1>
-    <div class="container services mt-4">
-       
-      
+    <div class="container services mt-4" id="services">
+
+
 
         <div class="card text-center" style="width: 14rem;">
             <img src="https://www.svgrepo.com//show/202992/web-design.svg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h1 class="fs-6">Web Design</h1>
-                <p class="description fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. soluta corporis.</p>
+                <p class="description fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. soluta corporis.
+                </p>
                 <button class="btn btn-outline-info">Order</button>
             </div>
         </div>
@@ -103,7 +97,8 @@
             <img src="https://www.svgrepo.com//show/202992/web-design.svg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h1 class="fs-6">Web Design</h1>
-                <p class="description fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. soluta corporis.</p>
+                <p class="description fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. soluta corporis.
+                </p>
                 <button class="btn btn-outline-info">Order</button>
             </div>
         </div>
@@ -111,13 +106,64 @@
             <img src="https://www.svgrepo.com//show/202992/web-design.svg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h1 class="fs-6">Web Design</h1>
-                <p class="description fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. soluta corporis.</p>
+                <p class="description fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. soluta corporis.
+                </p>
                 <button class="btn btn-outline-info">Order</button>
             </div>
         </div>
-       
+
 
     </div>
+
+    <section class="container text-center my-30 get-in-touch">
+        <h1>Get In Touch</h1>
+        <p>Contact Me</p>
+
+        <div class="row mt-4 sm-device">
+            <div class="col-6 ">
+                <h1 class="fs-4 mb-4">Talk to me</h1>
+                <div class="row width-300 height-300 border mb-4 p-4">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Email</p>
+                </div>
+                <div class="row width-300 height-300 border mb-4 p-4">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Whats App</p>
+                </div>
+                <div class="row width-300 height-300 border mb-4 p-4">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>Facebook</p>
+                </div>
+            </div>
+            <div class="col-6">
+                <form action="" method="post">
+                    <div class="row form-div">
+                        <h1 class="fs-4">Write me your project</h1>
+
+                        <div class=" mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Your Full Name">
+                        </div>
+                        <div class=" mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Your Email Address">
+                        </div>
+                        <div class=" mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Project Details</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        </div>
+                        <div class=" mb-3">
+                            <button class="btn btn-danger">Send <i class="fa-solid fa-paper-plane"></i></button>
+
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
 </body>
 

@@ -21,6 +21,9 @@ body{
 .mt-50{
     margin-top: 10%;
 }
+.my-30{
+    margin: 30px 0;
+}
 .navbar-top{
     background-image: url('https://images.pexels.com/photos/1384901/pexels-photo-1384901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     height: 100vh;
@@ -75,4 +78,34 @@ body{
     width: 80px;
     margin: 10px auto;
     
+}
+
+/** Banner Shape **/
+.width-300{
+    width: 300px;
+}
+.height-300{
+    height: auto;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.form-div{
+   display: flex;
+
+    padding: 10px 120px;
+}
+.sm-device{
+    display: flex;
+}
+@media (max-width: 575px) {
+    .sm-device{
+
+        flex-direction: column;
+    }
+    .form-div{
+        flex-direction: column;
+     padding: 10px;
+         
+     }
 }
