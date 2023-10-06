@@ -1,0 +1,38 @@
+.banner{
+    width: 100%;
+    height: 600px;
+    background-color:aquamarine;
+}
+
+.banner .carousel-item img{
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/** boostrap carousel button custom design*/
+.carousel-control-prev, .carousel-control-next{
+    background-color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: 50%;
+   
+}
+.carousel-control-prev{
+    left: 120px ;
+   
+}
+.carousel-control-next{
+    right: 120px;
+   
+}
+.carousel-control-prev .fa-solid, .carousel-control-next .fa-solid{
+   color: black;
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
