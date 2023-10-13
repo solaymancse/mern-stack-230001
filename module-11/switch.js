@@ -1,7 +1,7 @@
 var dates = new Date().getDay();
 var day;
 
-switch (dates) {
+switch (dates) { 
     case 0:
         day = "Sunday";
         break;
@@ -26,4 +26,5 @@ switch (dates) {
     default:
         day ="not found"
 }
-console.log(day)
+console.log( day);
+    
