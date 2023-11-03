@@ -3,7 +3,7 @@ import { cardTitle } from "../data"
 export const Card = () => {
     return (
         <>
-        <div className="flex gap-4">
+        <div className="mx-auto max-w-7xl px-6 flex gap-4">
         {cardTitle.map((item, index) => (
                 <div className=' w-[250px] h-[350px] border' key={index}>
                     <div className="w-full h-[200px]">

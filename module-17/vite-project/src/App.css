@@ -18,3 +18,10 @@
   border: 1px solid gray;
   cursor: pointer;
 }
+
+*{
+  list-style: none;
+}
+body{
+  background-color: #F5F5F5;
+}
