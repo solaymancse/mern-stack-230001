@@ -42,3 +42,24 @@ export const items = [
         title: "item 6 "
     },
 ]
+
+export const serviceData = [
+    {
+        title:"Safe Payments"
+    },
+    {
+        title:"Nationwide Delivery"
+    },
+    {
+        title:"Free & Easy Returns"
+    },
+    {
+        title:"Best Price Guaranteed"
+    },
+    {
+        title:"100% Authentic Products"
+    },
+    {
+        title:"Daraz Verified"
+    }
+]

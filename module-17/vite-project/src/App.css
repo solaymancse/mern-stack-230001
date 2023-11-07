@@ -25,3 +25,17 @@
 body{
   background-color: #F5F5F5;
 }
+/* 
+swiper js custom style */
+
+.mySwiper .swiper-button-next,.mySwiper .swiper-button-prev {
+  color: #fff;
+  background-color: #AD3B04 ;
+  
+
+  
+}
+.mySwiper .swiper-button-next::after,.mySwiper .swiper-button-prev::after {
+  font-size: 20px;
+  
+}
