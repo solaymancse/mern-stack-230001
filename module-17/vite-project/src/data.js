@@ -63,3 +63,46 @@ export const serviceData = [
         title:"Daraz Verified"
     }
 ]
+
+export const featureData = [
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/00cae466-df0e-4337-b743-ea7b179e20c2.png",
+        title:"Everyday Low Price !"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/849be25e-db09-43eb-936a-13f1bff9dc09.png",
+        title:"Free Delivery"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/00cae466-df0e-4337-b743-ea7b179e20c2.png",
+        title:"Men's Fashion"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/849be25e-db09-43eb-936a-13f1bff9dc09.png",
+        title:"Beauty & Glamour"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/00cae466-df0e-4337-b743-ea7b179e20c2.png",
+        title:"Mart"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/849be25e-db09-43eb-936a-13f1bff9dc09.png",
+        title:"Home Makeover"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/00cae466-df0e-4337-b743-ea7b179e20c2.png",
+        title:"Add to Cart"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/849be25e-db09-43eb-936a-13f1bff9dc09.png",
+        title:"Women's Fashion"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/00cae466-df0e-4337-b743-ea7b179e20c2.png",
+        title:"Budget Deals"
+    },
+    {
+        img:"https://icms-image.slatic.net/images/ims-web/849be25e-db09-43eb-936a-13f1bff9dc09.png",
+        title:"Daraz Card"
+    },
+]

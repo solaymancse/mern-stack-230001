@@ -10,14 +10,14 @@ import 'swiper/css/navigation';
 export const Banner = () => {
   return (
     <div className='flex gap-4 max-w-7xl mx-auto'>
-      <div className=" rounded-lg bg-white mt-6 py-4 border w-[250px] h-[300px]   px-6">
+      <div className=" hidden lg:flex lg:flex-col rounded-lg bg-white mt-6 py-4 border w-[250px] h-[300px]   px-6">
         {items.map((item, index) => (
           <li key={index} className="flex items-center gap-4 mb-4"> <PiTelevisionSimpleBold />{item.title}</li>
         ))}
 
       </div>
-      <div className=' w-10/12 h-[300px] mt-6 rounded-lg'>
-        <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className="mySwiper rounded-lg h-full">
+      <div className='w-full lg:w-10/12 h-[300px] lg:mt-6 lg:rounded-lg'>
+        <Swiper pagination={true} navigation={true} modules={[Navigation,Pagination]} className="mySwiper lg:rounded-lg h-full">
           <SwiperSlide>
             <img src="https://icms-image.slatic.net/images/ims-web/7b7d7fd1-4da7-4212-848a-14250031bafa.jpg" alt="" />
           </SwiperSlide>
