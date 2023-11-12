@@ -4,7 +4,7 @@ export const FlashSale = () => {
     return (
         <div className=" max-w-7xl mx-auto mt-[100px]">
             <h1 className=" text-2xl text-[#777]">FlashSale</h1>
-            <div className=" px-6 py-4 h-[400px] w-full bg-white">
+            <div className=" px-6 py-4 h-auto w-full bg-white">
                 <div className="flex justify-between border-b pb-6">
                     <div className="flex gap-[80px]">
                             <h1 className=" text-orange-600">On Sale Now</h1>
