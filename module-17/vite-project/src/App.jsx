@@ -6,6 +6,7 @@ import { Category } from './components/Category'
 import { FlashSale } from './components/FlashSale'
 
 import { Navbar } from './components/Navbar'
+import { State } from './components/state'
 
 
 function App() {
@@ -13,12 +14,13 @@ function App() {
 
   return (
     <>
-    <Navbar/>
+    {/* <Navbar/>
     <Banner/>
     <Advertisement/>
     <FlashSale/>
     <Category/>
-    <Card />
+    <Card /> */}
+    <State/>
     </>
   )
 }
